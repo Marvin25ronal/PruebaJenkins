@@ -1,0 +1,115 @@
+<?php
+
+use PHPUnit\Framework\TestCase;
+class prueba extends TestCase
+{
+    public function testObtenerInfoCandidato()
+    {
+      require "../plantilla/candidato/fCandidato.php";
+        //$cl="Select ..";
+        $this->assertNotEmpty(obtenerInfoCandidato("41998374"));
+        $this->assertNotEmpty(obtenerInfoCandidato("13773441"));
+        $this->assertNotEmpty(obtenerInfoCandidato("29637121"));
+        $this->assertNotEmpty(obtenerInfoCandidato("16456528"));
+        $this->assertNotEmpty(obtenerInfoCandidato("53116102"));
+        $this->assertNotEmpty(obtenerInfoCandidato("65433055"));
+        $this->assertNotEmpty(obtenerInfoCandidato("74135395"));
+        $this->assertNotEmpty(obtenerInfoCandidato("19381984"));
+        $this->assertNotEmpty(obtenerInfoCandidato("58042098"));
+        $this->assertNotEmpty(obtenerInfoCandidato("13051097"));
+        $this->assertNotEmpty(obtenerInfoCandidato("11653434"));
+        $this->assertNotEmpty(obtenerInfoCandidato("57650610"));
+        $this->assertNotEmpty(obtenerInfoCandidato("19135617"));
+        $this->assertNotEmpty(obtenerInfoCandidato("10530372"));
+        $this->assertNotEmpty(obtenerInfoCandidato("41397635"));
+        $this->assertNotEmpty(obtenerInfoCandidato("17576245"));
+        $this->assertNotEmpty(obtenerInfoCandidato("25470381"));
+        $this->assertNotEmpty(obtenerInfoCandidato("10108277"));
+        $this->assertNotEmpty(obtenerInfoCandidato("13091147"));
+        $this->assertNotEmpty(obtenerInfoCandidato("21326080"));
+        $this->assertNotEmpty(obtenerInfoCandidato("13596263"));
+        $this->assertNotEmpty(obtenerInfoCandidato("16145405"));
+        $this->assertNotEmpty(obtenerInfoCandidato("74497870"));
+        $this->assertNotEmpty(obtenerInfoCandidato("10418200"));
+        $this->assertNotEmpty(obtenerInfoCandidato("28627730"));
+        $this->assertNotEmpty(obtenerInfoCandidato("10034809"));
+        $this->assertNotEmpty(obtenerInfoCandidato("18613805"));
+        $this->assertNotEmpty(obtenerInfoCandidato("11814271"));
+        $this->assertNotEmpty(obtenerInfoCandidato("21194235"));
+        $this->assertNotEmpty(obtenerInfoCandidato("14656902"));
+        $this->assertNotEmpty(obtenerInfoCandidato("25783791"));
+        $this->assertNotEmpty(obtenerInfoCandidato("30711466"));
+        $this->assertNotEmpty(obtenerInfoCandidato("11679165"));
+        $this->assertNotEmpty(obtenerInfoCandidato("40919034"));
+        $this->assertNotEmpty(obtenerInfoCandidato("16160803"));
+        $this->assertNotEmpty(obtenerInfoCandidato("18820970"));
+        $this->assertNotEmpty(obtenerInfoCandidato("19786933"));
+        $this->assertNotEmpty(obtenerInfoCandidato("31668611"));
+        $this->assertNotEmpty(obtenerInfoCandidato("20087041"));
+        $this->assertNotEmpty(obtenerInfoCandidato("25099682"));
+        $this->assertNotEmpty(obtenerInfoCandidato("33749098"));
+        $this->assertNotEmpty(obtenerInfoCandidato("11171776"));
+        $this->assertNotEmpty(obtenerInfoCandidato("98953225"));
+        $this->assertNotEmpty(obtenerInfoCandidato("68533193"));
+        $this->assertNotEmpty(obtenerInfoCandidato("12610431"));
+        $this->assertNotEmpty(obtenerInfoCandidato("20184756"));
+        $this->assertNotEmpty(obtenerInfoCandidato("18699895"));
+        $this->assertNotEmpty(obtenerInfoCandidato("11899862"));
+        $this->assertNotEmpty(obtenerInfoCandidato("64582643"));
+        $this->assertNotEmpty(obtenerInfoCandidato("94227331"));
+        $this->assertNotEmpty(obtenerInfoCandidato("15723292"));
+        $this->assertNotEmpty(obtenerInfoCandidato("18511986"));
+        $this->assertNotEmpty(obtenerInfoCandidato("96804287"));
+        $this->assertNotEmpty(obtenerInfoCandidato("23655355"));
+        $this->assertNotEmpty(obtenerInfoCandidato("36617737"));
+        $this->assertNotEmpty(obtenerInfoCandidato("60589182"));
+        $this->assertNotEmpty(obtenerInfoCandidato("21040555"));
+        $this->assertNotEmpty(obtenerInfoCandidato("13206414"));
+        $this->assertNotEmpty(obtenerInfoCandidato("18830467"));
+        $this->assertNotEmpty(obtenerInfoCandidato("26990091"));
+        $this->assertNotEmpty(obtenerInfoCandidato("12388550"));
+        $this->assertNotEmpty(obtenerInfoCandidato("14978804"));
+        $this->assertNotEmpty(obtenerInfoCandidato("17665439"));
+        $this->assertNotEmpty(obtenerInfoCandidato("23376283"));
+        $this->assertNotEmpty(obtenerInfoCandidato("23163997"));
+        $this->assertNotEmpty(obtenerInfoCandidato("95225227"));
+        $this->assertNotEmpty(obtenerInfoCandidato("16260312"));
+        $this->assertNotEmpty(obtenerInfoCandidato("18486108"));
+        $this->assertNotEmpty(obtenerInfoCandidato("62262437"));
+        $this->assertNotEmpty(obtenerInfoCandidato("12445193"));
+        $this->assertNotEmpty(obtenerInfoCandidato("19335859"));
+        $this->assertNotEmpty(obtenerInfoCandidato("18476048"));
+        $this->assertNotEmpty(obtenerInfoCandidato("19993233"));
+        $this->assertNotEmpty(obtenerInfoCandidato("78879880"));
+        $this->assertNotEmpty(obtenerInfoCandidato("15592219"));
+        $this->assertNotEmpty(obtenerInfoCandidato("18151469"));
+        $this->assertNotEmpty(obtenerInfoCandidato("12790284"));
+        $this->assertNotEmpty(obtenerInfoCandidato("10508553"));
+        $this->assertNotEmpty(obtenerInfoCandidato("15588329"));
+        $this->assertNotEmpty(obtenerInfoCandidato("69021203"));
+        $this->assertNotEmpty(obtenerInfoCandidato("13134477"));
+        $this->assertNotEmpty(obtenerInfoCandidato("20737323"));
+        $this->assertNotEmpty(obtenerInfoCandidato("15669997"));
+        $this->assertNotEmpty(obtenerInfoCandidato("20581863"));
+        $this->assertNotEmpty(obtenerInfoCandidato("83511806"));
+        $this->assertNotEmpty(obtenerInfoCandidato("16339719"));
+        $this->assertNotEmpty(obtenerInfoCandidato("71448210"));
+        $this->assertNotEmpty(obtenerInfoCandidato("11400694"));
+        $this->assertNotEmpty(obtenerInfoCandidato("16071073"));
+        $this->assertNotEmpty(obtenerInfoCandidato("10296607"));
+        $this->assertNotEmpty(obtenerInfoCandidato("21550378"));
+        $this->assertNotEmpty(obtenerInfoCandidato("99742985"));
+        $this->assertNotEmpty(obtenerInfoCandidato("15178434"));
+        $this->assertNotEmpty(obtenerInfoCandidato("18574310"));
+        $this->assertNotEmpty(obtenerInfoCandidato("14951204"));
+        $this->assertNotEmpty(obtenerInfoCandidato("27026876"));
+        $this->assertNotEmpty(obtenerInfoCandidato("28981837"));
+        $this->assertNotEmpty(obtenerInfoCandidato("18852114"));
+        $this->assertNotEmpty(obtenerInfoCandidato("22106892"));
+        $this->assertNotEmpty(obtenerInfoCandidato("11775203"));
+    }
+
+
+}
+
+ ?>

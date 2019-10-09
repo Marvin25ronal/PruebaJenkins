@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Extras</title>
+  </head>
+  <body>
+    <button type="button" onclick="selectCandidato('GIAMMATTEI')" name="button">Press</button>
+    <button type="button" onclick="votoNulo()" name="button">Nulo</button>
+  </body>
+  <script type="text/javascript">
+    function selectCandidato(candidato){
+        if(confirm("Se enviara el voto por el candidato "+ candidato + " desea continuar?")){
+            console.log('Se manda a la otra pagina');
+           location.href="file:///C:/Users/User/Desktop/CuentaGIT/Analisis/HVoto.html";
+        }
+      }
+      function votoNulo(){
+        if(confirm("Su voto se marcara como nulo ¿Desea continuar?")){
+            console.log('Se manda a la otra pagina');
+            location.href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_confirm";
+        }
+      }
+  </script>
+</html>

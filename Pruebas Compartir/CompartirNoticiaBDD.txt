@@ -1,0 +1,33 @@
+Escenario: La noticia se envia solo un correo
+Tengo una noticia
+Y un titulo
+Y un mensaje
+Cuando selecciono una historia para Compartir
+Y escribo un solo correo sin separacion de comas
+entonces envio un correo con la noticia.
+
+
+//nueva develop
+
+Escenario: La noticia se envia a multiples Correos
+Tengo una Noticia
+y un titulo
+Y un mensaje
+Cuando selecciono una historia para Compartir
+Y escribo varios correos separados por comas
+entonces separo los correos por comas
+Y envio a todos el mismo mensaje.
+
+
+Escenario: La noticia no existe
+Tengo una Noticia que no existe
+Cuando selecciono una historia para Compartir que no existe
+entonces muestro un mensaje de alerta
+
+Escenario: No ingreso correo
+Tengo una Noticia
+y un titulo
+Y un mensaje
+Cuando selecciono una historia para Compartir
+Y no escribo  correos
+entonces muestro un error

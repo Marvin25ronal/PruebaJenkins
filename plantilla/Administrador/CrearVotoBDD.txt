@@ -1,0 +1,27 @@
+Escenario: La votacion es correcta
+Tengo Los datos de una votacion
+Cuando ingreso la fecha de inicio
+Y fecha de terminacion
+Y el nombre de la votacion
+entonces se guarda la votacion en la base de Datos.
+
+
+Escenario: La fecha de inicio es mayor que la de la terminacion
+Tengo los datos de una votacion
+Cuando la fecha de inico es mas grande que la de terminacion
+Entonces tengo que mostrar un mensaje de alerta.
+
+
+
+Escenario: El nombre es repetido
+Tengo el nombre de la votacion ya registrado
+Cuando ingreso el dato
+entonces tengo que mostrar un mensaje de alerta.
+
+
+
+Escenario: El nombre esta votacion
+Tengo un campo de nombre
+Cuando el campo no se ingresan datos
+Y esta vacio
+Entonces tengo que mostrar un mensaje de alerta.
