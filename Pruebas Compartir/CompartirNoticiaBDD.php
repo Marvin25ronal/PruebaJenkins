@@ -1,13 +1,14 @@
 <?php
-include "./Story/PHPUnit_Story.php";
-include "../plantilla/Compartir/Noticia.php";
-include "../plantilla/Compartir/Compartir.php";
-include_once "../plantilla/Compartir/Compartir.php";
+include_once __DIR__."\Story\PHPUnit_Story.php";
+include_once __DIR__."\..\plantilla\Compartir\Noticia.php";
+include_once __DIR__."\..\plantilla\Compartir\Compartir.php";
+include_once __DIR__."\..\plantilla\Compartir\Compartir.php";
+
 class CompartirNoticia extends PHPUnit_Extensions_Story_TestCase{
   /**
   * @scenario
   */
-  public function MensajeUnicoDestinatario(){
+  public function testMensajeUnicoDestinatario(){
     $noticia=new Noticia("Este es el titulo","Este es el contenido");
     $this->given('Noticia',$noticia)
     ->when('email','marvin1ronal@gmail.com')

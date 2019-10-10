@@ -1,5 +1,6 @@
 <?php
 include "Autoload.php";
+use PHPUnit\Framework\TestCase;
 /**
  * PHPUnit
  *
@@ -57,7 +58,7 @@ include "Autoload.php";
  * @link       http://www.phpunit.de/
  * @since      Class available since Release 3.3.0
  */
-abstract class PHPUnit_Extensions_Story_TestCase extends PHPUnit_Framework_TestCase
+abstract class PHPUnit_Extensions_Story_TestCase extends TestCase
 {
     /**
      * @var    PHPUnit_Extensions_Story_Scenario

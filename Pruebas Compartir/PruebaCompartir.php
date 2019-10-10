@@ -2,10 +2,11 @@
 /**
 *
 */
-class pruebaCompartir extends PHPUnit_Framework_TestCase
+use PHPUnit\Framework\TestCase;
+class pruebaCompartir extends TestCase
 {
   public function testCompartirGrafica(){
-    include_once "../plantilla/Compartir/Compartir.php";
+    include_once __DIR__."\../plantilla/Compartir/Compartir.php";
     $archivo="data:image/gif;base64,
     R0lGODdhMAAgAOMAANwCDOyCDPzmDPSeDNwSDPS2DOyODPzqDPSiDNwaDAAAAAAAAAAAAAAAAAAA
     AAAAACwAAAAAMAAgAAAE/fAISaew98q8+/TdZlUkdpyjOZarhpbkScnfTMfvDQd87//AoHDYAxiP
@@ -19,7 +20,7 @@ class pruebaCompartir extends PHPUnit_Framework_TestCase
 
   }
   public function testCompartirCandidato(){
-    include_once "../plantilla/Compartir/Compartir.php";
+    include_once __DIR__."\../plantilla/Compartir/Compartir.php";
     $archivo="data:image/gif;base64,
     R0lGODdhMAAgAOMAANwCDOyCDPzmDPSeDNwSDPS2DOyODPzqDPSiDNwaDAAAAAAAAAAAAAAAAAAA
     AAAAACwAAAAAMAAgAAAE/fAISaew98q8+/TdZlUkdpyjOZarhpbkScnfTMfvDQd87//AoHDYAxiP

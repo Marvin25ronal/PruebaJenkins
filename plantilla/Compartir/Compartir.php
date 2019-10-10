@@ -88,7 +88,7 @@ class Compartir{
     //$filename="../img/CompartirNoticia".$img;
     $filename="Compartir.png";
     //$file = "../img/CompartirNoticia/Compartir.png";
-    $file = "../img/CompartirNoticia/Compartir.png"; 
+    $file = __DIR__."\../img/CompartirNoticia/Compartir.png"; 
     $content = file_get_contents( $file);
     $content = chunk_split(base64_encode($content));
     $uid = md5(uniqid(time()));
