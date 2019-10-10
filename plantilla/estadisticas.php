@@ -1,6 +1,6 @@
 <?php
 	function obtenerVotaciones(){
-		include('funciones.php');
+		include_once('funciones.php');
 		return mysqli_fetch_array(queryLog("Select * from votacion;"));
 	}
 

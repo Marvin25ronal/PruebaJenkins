@@ -3,10 +3,15 @@
  *
  */
 use PHPUnit\Framework\TestCase;
+/**
+ * @group Unit
+ *
+ */
+ require_once __DIR__."\../../plantilla/estadisticas.php";
 class pruebaObtenerVotaciones extends TestCase
 {
     public function testObtenerVotaciones(){
-        require "../plantilla/estadisticas.php";
+
         $this->assertSame(10,count(obtenerVotaciones()));
     }
 

@@ -1,0 +1,120 @@
+<?php
+
+use PHPUnit\Framework\TestCase;
+/**
+ * @group Unit
+ *
+ */
+class pruebaQuery extends TestCase
+{
+
+  public function testQuery()
+  {
+    require_once __DIR__."\..\../plantilla/funciones.php";
+    //$cl="Select ..";
+    $this->assertSame(false,login("419983742","7CJz"));
+    $this->assertSame(false,login("1377344129","mHkK"));
+    $this->assertSame(false,login("-296371217","AmQt"));
+    $this->assertSame(false,login("1645652811","skji"));
+    $this->assertSame(false,login("-53116102","tmbU"));
+    $this->assertSame(false,login("-654330556","Ih3J"));
+    $this->assertSame(false,login("74135395","DyuO"));
+    $this->assertSame(false,login("1938198440","lUvV"));
+    $this->assertSame(false,login("580420983","J5yM"));
+    $this->assertSame(false,login("-1305109714","m5ai"));
+    $this->assertSame(false,login("1165343483","RjBp"));
+    $this->assertSame(false,login("576506104","DFg7"));
+    $this->assertSame(false,login("-1913561728","eVuq"));
+    $this->assertSame(false,login("1053037260","ueMX"));
+    $this->assertSame(false,login("413976357","fDYz"));
+    $this->assertSame(false,login("-1757624505","cveh"));
+    $this->assertSame(false,login("-254703815","ovhK"));
+    $this->assertSame(false,login("-1010827739","Dzf2"));
+    $this->assertSame(false,login("-1309114769","zOea"));
+    $this->assertSame(false,login("-2132608038","dYpB"));
+    $this->assertSame(false,login("1359626300","TLmg"));
+    $this->assertSame(false,login("-1614540533","iD1x"));
+    $this->assertSame(false,login("74497870","aTRx"));
+    $this->assertSame(false,login("1041820071","Hnx7"));
+    $this->assertSame(false,login("-286277307","nQbO"));
+    $this->assertSame(false,login("-1003480909","MjQr"));
+    $this->assertSame(false,login("-1861380582","VsRI"));
+    $this->assertSame(false,login("-118142713","bT4y"));
+    $this->assertSame(false,login("-2119423537","B3IO"));
+    $this->assertSame(false,login("1465690248","QnN2"));
+    $this->assertSame(false,login("257837916","rEm8"));
+    $this->assertSame(false,login("307114665","YBy7"));
+    $this->assertSame(false,login("-1167916546","Y0e4"));
+    $this->assertSame(false,login("-409190341","pmJI"));
+    $this->assertSame(false,login("-1616080308","iAHD"));
+    $this->assertSame(false,login("1882097098","gucu"));
+    $this->assertSame(false,login("1978693311","oAPu"));
+    $this->assertSame(false,login("316686110","ArrN"));
+    $this->assertSame(false,login("-2008704108","s1mM"));
+    $this->assertSame(false,login("25099682","ZqQI"));
+    $this->assertSame(false,login("337490989","Me41"));
+    $this->assertSame(false,login("-1117177678","8UpU"));
+    $this->assertSame(false,login("989532250","ZsDP"));
+    $this->assertSame(false,login("-685331935","vSlW"));
+    $this->assertSame(false,login("-1261043146","z9vA"));
+    $this->assertSame(false,login("2018475646","Lc2d"));
+    $this->assertSame(false,login("-1869989507","JoVH"));
+    $this->assertSame(false,login("1189986267","3Rcz"));
+    $this->assertSame(false,login("645826430","7Bgq"));
+    $this->assertSame(false,login("942273314","GTDo"));
+    $this->assertSame(false,login("1572329245","e2UC"));
+    $this->assertSame(false,login("-1851198657","0BDS"));
+    $this->assertSame(false,login("-968042877","8eqe"));
+    $this->assertSame(false,login("-236553558","L7Vm"));
+    $this->assertSame(false,login("366177377","Zbi1"));
+    $this->assertSame(false,login("-605891825","QjSb"));
+    $this->assertSame(false,login("-2104055551","IIIF"));
+    $this->assertSame(false,login("-1320641497","qQ7F"));
+    $this->assertSame(false,login("1883046771","rHiS"));
+    $this->assertSame(false,login("26990091","2I1z"));
+    $this->assertSame(false,login("1238855062","JWFN"));
+    $this->assertSame(false,login("-1497880452","HLFN"));
+    $this->assertSame(false,login("-1766543921","GPZg"));
+    $this->assertSame(false,login("-233762833","vJYR"));
+    $this->assertSame(false,login("231639977","DUkX"));
+    $this->assertSame(false,login("-95225227","aUv8"));
+    $this->assertSame(false,login("1626031293","Jobz"));
+    $this->assertSame(false,login("184861088","dPWx"));
+    $this->assertSame(false,login("-622624376","E6um"));
+    $this->assertSame(false,login("-1244519395","dY5G"));
+    $this->assertSame(false,login("1933585947","vUdN"));
+    $this->assertSame(false,login("184760481","4J9I"));
+    $this->assertSame(false,login("1999323344","sp6c"));
+    $this->assertSame(false,login("788798800","0dFv"));
+    $this->assertSame(false,login("-1559221920","B4fu"));
+    $this->assertSame(false,login("181514699","8v1V"));
+    $this->assertSame(false,login("1279028497","9JAA"));
+    $this->assertSame(false,login("1050855310","HhF6"));
+    $this->assertSame(false,login("-155883299","kKvP"));
+    $this->assertSame(false,login("-690212035","6dxd"));
+    $this->assertSame(false,login("-1313447759","MXaP"));
+    $this->assertSame(false,login("-2073732334","Bq6a"));
+    $this->assertSame(false,login("-1566999740","Z75h"));
+    $this->assertSame(false,login("-2058186352","5U8V"));
+    $this->assertSame(false,login("-835118064","3IbI"));
+    $this->assertSame(false,login("-1633971934","sG8D"));
+    $this->assertSame(false,login("-71448210","f6At"));
+    $this->assertSame(false,login("1140069455","E5RL"));
+    $this->assertSame(false,login("1607107309","Pvk1"));
+    $this->assertSame(false,login("-1029660760","FyKS"));
+    $this->assertSame(false,login("-215503784","BkjD"));
+    $this->assertSame(false,login("-997429850","6FNC"));
+    $this->assertSame(false,login("-1517843449","uEQX"));
+    $this->assertSame(false,login("-1857431038","vtmd"));
+    $this->assertSame(false,login("149512046","56v7"));
+    $this->assertSame(false,login("270268760","heXB"));
+    $this->assertSame(false,login("289818375","ooM5"));
+    $this->assertSame(false,login("1885211413","DZTL"));
+    $this->assertSame(false,login("22106892","b1RL"));
+    $this->assertSame(false,login("-1177520394","gZyW"));
+  }
+
+
+}
+
+?>

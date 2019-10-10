@@ -8,8 +8,8 @@
 		$servidor = "localhost:3306";
 		$basededatos = "db_votos";
 		*/
-		
-		include "Contra.php";
+
+		include __DIR__."\Contra.php";
 		// creación de la conexión a la base de datos con mysql_connect()
 		$conexion = mysqli_connect( $servidor, $usuario, $password ) or die ("NO hay servidor");
 

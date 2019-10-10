@@ -1,16 +1,15 @@
 <?php
+
+use PHPUnit\Framework\TestCase;
 /**
+* @group Unit
 *
 */
-use PHPUnit\Framework\TestCase;
 class pruebaCompartir extends TestCase
 {
-  public function Correr()
-    {
-        $this->testCompartirGrafica();
-    }
+
   public function testCompartirGrafica(){
-    include_once __DIR__."\../plantilla/Compartir/Compartir.php";
+    include_once __DIR__."\..\../plantilla/Compartir/Compartir.php";
     $archivo="data:image/gif;base64,
     R0lGODdhMAAgAOMAANwCDOyCDPzmDPSeDNwSDPS2DOyODPzqDPSiDNwaDAAAAAAAAAAAAAAAAAAA
     AAAAACwAAAAAMAAgAAAE/fAISaew98q8+/TdZlUkdpyjOZarhpbkScnfTMfvDQd87//AoHDYAxiP
@@ -20,11 +19,11 @@ class pruebaCompartir extends TestCase
     2/v8/VJEAAMK5LErF4iCeNokZEEnhps4vWpUkPjBTgsUC+sk3GNLQwQAOw==";
     $s=new Compartir;
     $this->assertEquals(true,$s->CompartirGrafica("marvin1ronal@gmail.com",$archivo,"Este es el cuerpo"));
-  //  $this->assertEquals(false,$s->CompartirGrafica("1",$archivo,"Este es el cuerpo"));
+    //  $this->assertEquals(false,$s->CompartirGrafica("1",$archivo,"Este es el cuerpo"));
 
   }
   public function testCompartirCandidato(){
-    include_once __DIR__."\../plantilla/Compartir/Compartir.php";
+    include_once __DIR__."\..\../plantilla/Compartir/Compartir.php";
     $archivo="data:image/gif;base64,
     R0lGODdhMAAgAOMAANwCDOyCDPzmDPSeDNwSDPS2DOyODPzqDPSiDNwaDAAAAAAAAAAAAAAAAAAA
     AAAAACwAAAAAMAAgAAAE/fAISaew98q8+/TdZlUkdpyjOZarhpbkScnfTMfvDQd87//AoHDYAxiP

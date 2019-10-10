@@ -1,9 +1,12 @@
 <?php
 include_once __DIR__."\Story\PHPUnit_Story.php";
-include_once __DIR__."\..\plantilla\Compartir\Noticia.php";
-include_once __DIR__."\..\plantilla\Compartir\Compartir.php";
-include_once __DIR__."\..\plantilla\Compartir\Compartir.php";
-
+include_once __DIR__."\..\..\plantilla\Compartir\Noticia.php";
+include_once __DIR__."\..\..\plantilla\Compartir\Compartir.php";
+include_once __DIR__."\..\..\plantilla\Compartir\Compartir.php";
+/**
+* @group Unit
+*
+*/
 class CompartirNoticia extends PHPUnit_Extensions_Story_TestCase{
   /**
   * @scenario
@@ -19,7 +22,7 @@ class CompartirNoticia extends PHPUnit_Extensions_Story_TestCase{
   /**
   * @scenario
   */
-  public function MensajeMultipleDestinatario(){
+  public function testMensajeMultipleDestinatario(){
     $noticia=new Noticia("Este es el titulo multiple","Este es el contenido de noticia multiple");
     $this->given('Noticia',$noticia)
     ->when('listaemail1','marvin1ronal@gmail.com')

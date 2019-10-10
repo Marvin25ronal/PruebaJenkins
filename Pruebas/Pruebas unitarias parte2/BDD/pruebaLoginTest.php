@@ -1,8 +1,13 @@
 <?php
 
-include "./Story/PHPUnit_Story.php";
-require_once './../../plantilla/Login.php';
-include './../../plantilla/funciones.php';
+require_once __DIR__."/../../Pruebas Compartir/Story/PHPUnit_Story.php";
+require_once __DIR__.'/../../../plantilla/Login.php';
+require_once __DIR__.'/../../../plantilla/funciones.php';
+use PHPUnit\Framework\TestCase;
+/**
+ * @group Unit
+ *
+ */
 class pruebaLogin extends PHPUnit_Extensions_Story_TestCase{
    /**
   * @scenario
@@ -53,7 +58,7 @@ class pruebaLogin extends PHPUnit_Extensions_Story_TestCase{
   */
   public function test_Inicia_Sesion_Credenciales_Correctas(){
       $this->given('Login')
-         ->when('Usuario existente y Contraseña correcta','201602420','j')
+         ->when('Usuario existente y Contraseña correcta','201602420','123')
          ->then('Entra', true);
   }
 
@@ -88,22 +93,22 @@ class pruebaLogin extends PHPUnit_Extensions_Story_TestCase{
   public function runThen(&$world, $action, $arguments)
   {
   	echo "Then ".$action."\n\n";
-  	switch($action) {   
-  		case 'Error': 
-  		{                
-  			return $this->assertEquals($arguments[0], $world['login']->iniciar("",""));            
-  		}           
+  	switch($action) {
+  		case 'Error':
+  		{
+  			return $this->assertEquals($arguments[0], $world['login']->iniciar("",""));
+  		}
   		break;
-      case 'No entra': 
-      case 'Entra': 
-      {                
-        return $this->assertEquals($arguments[0], $world['login']->iniciar($world['carnet'],$world['pass']));            
-      }           
-      break;            
+      case 'No entra':
+      case 'Entra':
+      {
+        return $this->assertEquals($arguments[0], $world['login']->iniciar($world['carnet'],$world['pass']));
+      }
+      break;
   		default:
-  		{                
-  			return $this->notImplemented($action);            
-  		}        
+  		{
+  			return $this->notImplemented($action);
+  		}
   	}
   }
 }

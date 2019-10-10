@@ -1,6 +1,6 @@
 <?php
 
-	//include "funciones.php";
+	include_once __DIR__."/funciones.php";
 
 	function notificar($correo, $asunto, $cuerpo){
 		$cuerpo = '
@@ -112,11 +112,11 @@
 	}
 
 	function obtener_correos(){
-		$consulta = query("select correo from usuario;");
+		$consulta = queryLog("select correo from usuario;");
 		$cadena = "";
 		while($correos = mysqli_fetch_array($consulta)){
     		$cadena = $cadena.$correos["correo"].',';
-		} 
+		}
 
 		$cadena = substr_replace($cadena ,"", -1);
 		return $cadena;
