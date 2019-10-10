@@ -100,6 +100,7 @@ class pruebaLogin extends PHPUnit_Extensions_Story_TestCase{
   		}
   		break;
       case 'No entra':
+      break;
       case 'Entra':
       {
         return $this->assertEquals($arguments[0], $world['login']->iniciar($world['carnet'],$world['pass']));
