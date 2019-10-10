@@ -5,6 +5,10 @@
 use PHPUnit\Framework\TestCase;
 class pruebaCompartir extends TestCase
 {
+  public function Correr()
+    {
+        $this->testCompartirGrafica();
+    }
   public function testCompartirGrafica(){
     include_once __DIR__."\../plantilla/Compartir/Compartir.php";
     $archivo="data:image/gif;base64,
